@@ -1,0 +1,277 @@
+html {
+	scroll-behavior: smooth;
+	display: flex;
+}
+
+body {
+	background: white;
+	font-family: "outfit", sans-serif;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #5389af;
+	float: left;
+	position: fixed;
+	top: 0;
+	width: 15%;
+	height: 100%;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+}
+
+.topnav h3 {
+	float: center;
+	color: black;
+	text-align: center;
+	padding: 0px 22px;
+	text-decoration: none;
+	width: 14ch;
+	animation: typing 2s steps(14), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.topnav h4 {
+	float: center;
+	color: black;
+	text-align: center;
+	padding: 0px 22px;
+	text-decoration: none;
+	width: 22ch;
+	animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.topnav img {
+	float: center;
+	padding: 10px 22px;
+	border-radius: 50%;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.topnav a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 16px 22px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "monaco", monospace;
+}
+
+.topnav a:hover {
+	background-color: #3e6b82;
+	width: 100%;
+	color: black;
+	text-align: left;
+}
+
+#info {
+	float: right;
+	width: 85%;
+	height: 500px;
+	border: none;
+	padding: 100px 0px;
+}
+
+#info p {
+	font-style: normal;
+	font-size: 20px;
+	padding: 0px 25px;
+}
+
+#info h3 {
+	text-align: left;
+	padding: 0px 25px;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+#info .question {
+	font-weight: bold;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+}
+
+#knowledge {
+	float: right;
+	width: 85%;
+	height: 500px;
+	border: none;
+	padding: 100px 0px;
+}
+
+#knowledge h3 {
+	font-style: normal;
+	padding: 0px 25px 75px;
+	text-align: left;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+#knowledge img {
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	padding: 0px 25px;
+	height: 100px;
+	width: auto;
+}
+
+#education {
+	float: right;
+	width: 85%;
+	height: 500px;
+	border: none;
+	padding: 100px 0px;
+}
+
+#education .places {
+	font-style: normal;
+	font-size: 20px;
+	padding: 0px 25px;
+}
+
+#education h3 {
+	text-align: left;
+	padding: 0px 25px;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+#education .institution {
+	font-weight: bold;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	padding-right: 80px;
+	padding-bottom: 20px;
+}
+
+#education .course {
+	font-weight: normal;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	padding-right: 80px;
+	padding-bottom: 20px;
+}
+
+#education .date {
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	color: #5389af;
+	padding-bottom: 20px;
+}
+
+#experience {
+	float: right;
+	width: 85%;
+	height: 500px;
+	border: none;
+	padding: 80px 0px 100px;
+}
+
+#experience .jobs {
+	font-style: normal;
+	font-size: 20px;
+	padding: 0px 25px;
+}
+
+#experience h3 {
+	text-align: left;
+	padding: 0px 25px;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+#experience .role {
+	font-weight: bold;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	padding-right: 150px;
+	padding-bottom: 5px;
+}
+
+#experience .workplace {
+	font-weight: normal;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	padding-right: 80px;
+	padding-bottom: 5px;
+}
+
+#experience .date {
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	color: #5389af;
+	padding-bottom: 5px;
+}
+
+#experience .details {
+	font-family: "monaco", monospace;
+	padding-bottom: 10px;
+	padding-right: 80px;
+	font-size: 18px;
+}
+
+#contact {
+	float: right;
+	width: 85%;
+	height: 500px;
+	border: none;
+	padding: 100px 0px;
+}
+
+#contact h3 {
+	font-style: normal;
+	padding: 0px 25px 25px;
+	text-align: left;
+	font-family: "monaco", monospace;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+#contact .contact-list {
+	font-style: normal;
+	padding: 0px 25px;
+}
+
+#contact .icon {
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+#contact .item {
+	font-weight: normal;
+	font-family: "monaco", monospace;
+	padding-right: 80px;
+	padding-bottom: 50px;
+	font-size: 24px;
+}
+
+#contact .item a {
+	text-decoration: none;
+	color: black;
+}
+
+#contact .item a:hover {
+	text-decoration: none;
+	color: #477495;
+}
